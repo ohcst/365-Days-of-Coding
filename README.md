@@ -3,6 +3,7 @@ It includes completing an ideally 1-hour max task in any language you choose.
 Here is the discord link: https://discord.gg/bfcZFyb4xp
 
 **ABOUT**
+
 We're a community attempting the 365-day code challenge. 
 This challenge is all about coding every day, week, or fortnight,  for a whole year. 
 New challenges would be posted regularly in the challenge specific channels: 🔥-daily-challenges 🧊-weekly-challenges ⚡-fortnight-challenges 
