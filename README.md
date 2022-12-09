@@ -3,6 +3,7 @@
 **Starting Jan 1, 2023** <br />
 This repository is for a community challenge created by students from my school. <br />
 It includes completing an ideally 1-hour max task in almost any language you choose. <br />
+There are daily, weekly, and fortnightly challenges. <br />
 You can find the discord link [here](https://discord.gg/bfcZFyb4xp). <br />
 
 ## **About** <br />
