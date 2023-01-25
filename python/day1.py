@@ -1,6 +1,7 @@
 def majority(arr: list[int or float]): # inputs can be a list of integers, floats or both
+    print(f"Given array: {arr}")
     arr = sorted(arr) # sort arr in ascending order
-    count = {} #create an empty dictionary to store the count of each element
+    count = {} # create an empty dictionary to store the count of each element
     goal = len(arr)//2 + 1 # goal is the number of times an element must appear to be the majority element
     print("Goal: ", goal, " appearances")
 

@@ -1,17 +1,18 @@
 function majority(arr) {
-    var count = {}
-    const goal = (Math.floor(arr.length/2) + 1)
+    console.log(`Given array: [${arr}]`)
+    var count = {} // create an empty object to store the count of each element
+    const goal = (Math.floor(arr.length/2) + 1) // goal is the number of times an element must appear to be the majority element
     console.log("Goal: " + goal + " appearances")
 
-    for (num in arr) {
-        if (count.hasOwnProperty(arr[num])) {
+    for (num in arr) { // loop through array
+        if (count.hasOwnProperty(arr[num])) { // if the element is already in the object, increment the frequency
             count[arr[num]] += 1
-        } else {
+        } else { // if the element is not in the object, add it and set the frequency to 1
             count[arr[num]] = 1
         }
     }
 
-    for (const num in count) {
+    for (const num in count) { // loop through all items in the object
         if (count[num] >= goal) {
             return `'${num}' is the majority element, appearing ${count[num]} times`
         }
