@@ -12,7 +12,7 @@ function majority(arr) {
         }
     }
 
-    for (const num in count) { // loop through all items in the object
+    for (num in count) { // loop through all items in the object
         if (count[num] >= goal) {
             return `'${num}' is the majority element, appearing ${count[num]} times`
         }
